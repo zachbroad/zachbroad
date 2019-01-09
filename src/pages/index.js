@@ -11,7 +11,22 @@ export default class IndexPage extends React.Component {
     return (
       <Layout>
         <section className="section">
+
           <div className="container">
+            <section className="hero is-primary">
+              <div className="hero-body">
+                <div className="container">
+                  <h1 className="title has-text-white">Slow websites suck.</h1>
+                  <h2 className="subtitle has-text-white">
+                    It doesn't have to be that way.
+                  </h2>
+                  <p className="has-text-white">Did you know that <a className="has-text-weight-bold has-text-link" href="https://www.marketingdive.com/news/google-53-of-mobile-users-abandon-sites-that-take-over-3-seconds-to-load/426070/">53% of users</a> will leave your site if it doesn't load in under three seconds?</p>
+                  <button className="button is-pulled-right">
+                    <a href="">Get started</a>
+                  </button>
+                </div>
+              </div>
+            </section>
             <div className="content">
               <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
             </div>
