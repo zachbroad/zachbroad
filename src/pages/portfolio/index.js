@@ -5,9 +5,15 @@ export default class Index extends Component {
   render() {
     return (
       <Layout>
-        <h1>Portfolio page</h1>
-        <div />
+        <div className="container">
+          <h1 className="title is-1">My Portfolio</h1>
+          <p>This is a list of the work I have done for clients.</p>
+          <div>
+          </div>
+        </div>
       </Layout>
     );
   }
 }
+
+

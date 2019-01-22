@@ -2,9 +2,19 @@ import React from "react";
 import { Link } from "gatsby";
 import github from "../img/github-icon.svg";
 
+const DEFAULT = "#FF8F00";
+const HOVER = "#000";
+
 const Navbar = class extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      color: "#FF8F00"
+    };
+  }
+
   componentDidMount() {
-    // Get all "navbar-burger" elements
+    //     // Get all "navbar-burger" elements
     const $navbarBurgers = Array.prototype.slice.call(
       document.querySelectorAll(".navbar-burger"),
       0
@@ -36,14 +46,17 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <h1 style={{ fontSize: 88, color: "#FF8F00" }}>Z</h1>
+              <h1 style={{ fontSize: 88, color: this.state.color, transition: .5 }}
+                  onMouseOver={() => this.setState({ color: HOVER })}
+                  onMouseLeave={() => this.setState({color: DEFAULT})}
+              >Z</h1>
               {/* <img src={logo} alt="Kaldi" style={{ width: '88px' }} /> */}
             </Link>
             {/* Hamburger menu */}
             <div className="navbar-burger burger" data-target="navMenu">
-              <span />
-              <span />
-              <span />
+              <span/>
+              <span/>
+              <span/>
             </div>
           </div>
           <div id="navMenu" className="navbar-menu">
@@ -51,8 +64,8 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/about">
                 About
               </Link>
-              <Link className="navbar-item" to="/learn">
-                101
+              <Link className="navbar-item" to="/blog">
+                Blog
               </Link>
               <Link className="navbar-item" to="/portfolio">
                 Portfolio
@@ -72,7 +85,7 @@ const Navbar = class extends React.Component {
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  <img src={github} alt="Github" />
+                  <img src={github} alt="Github"/>
                 </span>
               </a>
             </div>

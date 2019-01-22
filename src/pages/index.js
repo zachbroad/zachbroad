@@ -1,17 +1,19 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
-import Layout from '../components/Layout'
+import React from "react";
+import PropTypes from "prop-types";
+import { Link, graphql } from "gatsby";
+import Layout from "../components/Layout";
+import phone from "../img/phone.jpg";
+import AboutMe from "../components/AboutMe";
 
 export default class IndexPage extends React.Component {
   render() {
-    const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    const { data } = this.props;
+    const { edges: posts } = data.allMarkdownRemark;
 
     return (
       <Layout>
         <section className="section">
-
+          <AboutMe/>
           <div className="container">
             <section className="hero is-primary">
               <div className="hero-body">
@@ -20,10 +22,21 @@ export default class IndexPage extends React.Component {
                   <h2 className="subtitle has-text-white">
                     It doesn't have to be that way.
                   </h2>
-                  <p className="has-text-white">Did you know that <a className="has-text-weight-bold has-text-link" href="https://www.marketingdive.com/news/google-53-of-mobile-users-abandon-sites-that-take-over-3-seconds-to-load/426070/">53% of users</a> will leave your site if it doesn't load in under three seconds?</p>
-                  <button className="button is-pulled-right">
-                    <a href="">Get started</a>
-                  </button>
+                  <p className="has-text-white">Did you know that <a className="has-text-weight-bold has-text-link"
+                                                                     href="https://www.marketingdive.com/news/google-53-of-mobile-users-abandon-sites-that-take-over-3-seconds-to-load/426070/">53%
+                    of users</a> will leave your site if it doesn't load in under three seconds?</p>
+                </div>
+                <button className="button is-pulled-right">
+                  <a href="">Get started</a>
+                </button>
+              </div>
+            </section>
+            <section>
+              <div className="container" style={{ backgroundImage: phone.url }}>
+                {/*<img src={phone} alt="Guy on phone"/>*/}
+                <div className="container is-overlay">
+                  <h1>We live in a mobile world</h1>
+                  <p>Your business should too.</p>
                 </div>
               </div>
             </section>
@@ -34,7 +47,7 @@ export default class IndexPage extends React.Component {
               .map(({ node: post }) => (
                 <div
                   className="content"
-                  style={{ border: '1px solid #333', padding: '2em 4em' }}
+                  style={{ border: "1px solid #333", padding: "2em 4em" }}
                   key={post.id}
                 >
                   <p>
@@ -46,8 +59,8 @@ export default class IndexPage extends React.Component {
                   </p>
                   <p>
                     {post.excerpt}
-                    <br />
-                    <br />
+                    <br/>
+                    <br/>
                     <Link className="button is-small" to={post.fields.slug}>
                       Keep Reading →
                     </Link>
@@ -57,17 +70,17 @@ export default class IndexPage extends React.Component {
           </div>
         </section>
       </Layout>
-    )
+    );
   }
 }
 
 IndexPage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
-}
+      edges: PropTypes.array
+    })
+  })
+};
 
 export const pageQuery = graphql`
   query IndexQuery {
@@ -91,4 +104,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
