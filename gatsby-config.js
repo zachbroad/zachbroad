@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Zach Broad',
-    description: 'Web and Application Development',
+    description: 'Website and Application Development for the Orlando area.',
     githubURL: "https://www.github.com/zachbroad/",
   },
   plugins: [

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import github from "../img/github-icon.svg";
+import github from "../../img/github-icon.svg";
 
 const DEFAULT = "#FF8F00";
 const HOVER = "#000";
@@ -39,14 +39,14 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="navbar"
         role="navigation"
         aria-label="main-navigation"
       >
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <h1 style={{ fontSize: 88, color: this.state.color, transition: .5 }}
+              <h1 style={{ fontSize: 88, color: this.state.color, transition: 'all .3s' }}
                   onMouseOver={() => this.setState({ color: HOVER })}
                   onMouseLeave={() => this.setState({color: DEFAULT})}
               >Z</h1>
