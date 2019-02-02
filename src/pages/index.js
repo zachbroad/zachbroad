@@ -7,6 +7,7 @@ import AboutMe from "../components/AboutMe/";
 import SlowWebsiteHero from "../components/SlowWebsiteHero";
 import BlogFeed from "../components/BlogFeed";
 import MobileWorld from "../components/MobileWorld";
+import Services from "../components/Services";
 
 export default class IndexPage extends React.Component {
   render() {
@@ -16,11 +17,16 @@ export default class IndexPage extends React.Component {
     return (
       <Layout>
         <AboutMe/>
-        {/*<SlowWebsiteHero/>*/}
+        <SlowWebsiteHero/>
 
-        {/*<MobileWorld/>*/}
+        <div className="container">
+          <Services/>
+        </div>
 
-        {/*<BlogFeed posts={posts}/>*/}
+
+        <div className="container">
+          <BlogFeed posts={posts}/>
+        </div>
       </Layout>
     );
   }

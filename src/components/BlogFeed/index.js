@@ -9,7 +9,6 @@ class BlogFeed extends Component {
       <div>
         <div className="content">
           <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
-        </div>
         {posts
           .map(({ node: post }) => (
             <div
@@ -34,6 +33,7 @@ class BlogFeed extends Component {
               </p>
             </div>
           ))}
+        </div>
       </div>
     );
   }
