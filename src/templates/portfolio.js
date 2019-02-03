@@ -3,25 +3,29 @@ import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import Content, { HTMLContent } from "../components/Content";
 import Layout from "../components/Layout";
+import GatsbyImage from "gatsby-image";
 
-export const PortfolioTemplate = ({ data }) => {
+export const PortfolioTemplate = ({
+                                    content,
+                                    title,
+                                    description,
+                                    url,
+                                    image
+                                  }) => {
   return (
     <div>
       <div className="card portfolio-item">
         <div className="card-header">
           <div className="card-header-title">
-            {data.node.frontmatter.title}
+            {title}
           </div>
-        </div>
-        <div>
-          <GatsbyImage fluid={data.node.frontmatter.image.childImageSharp.fluid}/>
         </div>
         <div className="card-content">
           <div className="description">
-            {data.node.frontmatter.description}
+            {description}
           </div>
           <div className="visit-site">
-            <a href={data.node.frontmatter.url}>
+            <a href={url}>
               <button className="button is-fullwidth">
                 Visit site
               </button>
@@ -43,7 +47,6 @@ const PortfolioObject = ({ data }) => {
       <PortfolioTemplate
         content={obj.html}
         contentComponent={HTMLContent}
-        description={obj.frontmatter.description}
         helmet={
           <Helmet
             titleTemplate="%s | Portfolio"
@@ -53,6 +56,9 @@ const PortfolioObject = ({ data }) => {
           </Helmet>
         }
         title={obj.frontmatter.title}
+        description={obj.frontmatter.description}
+        url={obj.frontmatter.url}
+        image={obj.frontmatter.image.childImageSharp.fluid}
       />
     </Layout>
   );
