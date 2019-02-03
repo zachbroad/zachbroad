@@ -19,7 +19,7 @@ class Services extends Component {
           <div className="tile is-vertical is-8">
             <div className="tile">
               <div className="tile is-parent is-vertical">
-                <article className="tile is-child notification is-primary">
+                <article className="tile is-child design-dev notification is-dark">
                   <p className="title">Web Design and Development</p>
                   <p className="subtitle"></p>
                   <div className="content">
@@ -28,7 +28,7 @@ class Services extends Component {
                   </div>
                   <LearnMore url="/design/"/>
                 </article>
-                <article className="tile is-child notification is-warning">
+                <article className="tile is-child notification content-management">
                   <p className="title">Content Management</p>
                   <div className="content">
                     <p>
@@ -77,7 +77,7 @@ class Services extends Component {
             </div>
           </div>
           <div className="tile is-parent">
-            <article className="tile is-child notification is-danger">
+            <article className="tile is-child notification is-warning">
               <div className="content">
                 <p className="title">Taking your business to next level</p>
                 <p className="subtitle">A solid online presence is essential in today's market.</p>

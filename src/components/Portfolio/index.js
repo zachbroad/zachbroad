@@ -14,7 +14,14 @@ export const Portfolio = () => {
               frontmatter {
                 title
                 description
-
+                url
+                image {
+                  childImageSharp {
+                    fluid {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
               }
             }
           }
@@ -29,7 +36,7 @@ export const Portfolio = () => {
                      <PortfolioItem data={item} key={item.id}/>
                    ));
                    return (
-                     <div className="section">
+                     <div className="section columns">
                        {portfolioItems}
                      </div>
                    );
