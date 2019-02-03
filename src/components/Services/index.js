@@ -12,7 +12,7 @@ const LearnMore = ({url}) => (
 class Services extends Component {
   render() {
     return (
-      <div className={"services content"}>
+      <div id="services" className={"services content"}>
         <h1 className="title is-1">Services</h1>
 
         <div className="tile is-ancestor">
@@ -28,7 +28,7 @@ class Services extends Component {
                   </div>
                   <LearnMore url="/design/"/>
                 </article>
-                <article className="tile is-child notification content-management">
+                <article className="tile is-child notification is-warning">
                   <p className="title">Content Management</p>
                   <div className="content">
                     <p>
@@ -48,9 +48,6 @@ class Services extends Component {
                   <p className="subtitle">
                     First impressions matter.
                   </p>
-                  <figure className="image is-4by3">
-                    <img src="https://bulma.io/images/placeholders/640x480.png"/>
-                  </figure>
                   <div className="content">
                     Our highly skilled team of designers can help you prepare your brand
                     for its digital presence with a beautiful, eye-catching logo.
@@ -77,7 +74,7 @@ class Services extends Component {
             </div>
           </div>
           <div className="tile is-parent">
-            <article className="tile is-child notification is-warning">
+            <article className="tile is-child notification is-brand">
               <div className="content">
                 <p className="title">Taking your business to next level</p>
                 <p className="subtitle">A solid online presence is essential in today's market.</p>

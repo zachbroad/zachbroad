@@ -13,6 +13,9 @@ class SlowWebsiteHero extends Component {
             <p className="has-text-white">Did you know that <a className="has-text-weight-bold has-text-link"
                                                                href="https://www.marketingdive.com/news/google-53-of-mobile-users-abandon-sites-that-take-over-3-seconds-to-load/426070/">53%
               of users</a> will leave your site if it doesn't load in under three seconds?</p>
+            <p>
+              Don't let your website slow your business to a halt.
+            </p>
           </div>
           <button className="button is-pulled-right">
             <a href="">Get started</a>

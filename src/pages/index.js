@@ -8,6 +8,7 @@ import SlowWebsiteHero from "../components/SlowWebsiteHero";
 import BlogFeed from "../components/BlogFeed";
 import MobileWorld from "../components/MobileWorld";
 import Services from "../components/Services";
+import ContactForm from "../components/ContactForm";
 
 export default class IndexPage extends React.Component {
   render() {
@@ -23,6 +24,14 @@ export default class IndexPage extends React.Component {
           <Services/>
         </div>
 
+
+        <div className="container contact-form">
+          <div className="card">
+            <div className="card-content">
+              <ContactForm/>
+            </div>
+          </div>
+        </div>
 
         <div className="container">
           <BlogFeed posts={posts}/>

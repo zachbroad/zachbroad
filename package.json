@@ -5,6 +5,8 @@
   "author": "Austin Green",
   "dependencies": {
     "bulma": "^0.7.0",
+    "font-awesome": "^4.7.0",
+    "fontawesome": "^5.6.3",
     "gatsby": "^2.0.66",
     "gatsby-image": "^2.0.23",
     "gatsby-plugin-netlify": "^2.0.6",
@@ -28,6 +30,7 @@
     "react": "^16.2.0",
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0",
+    "react-icons": "^3.3.0",
     "react-transition-group": "^2.5.2",
     "uuid": "^3.2.1"
   },
