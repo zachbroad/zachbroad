@@ -4,12 +4,15 @@ import "./style.sass";
 import GatsbyImage from "gatsby-image";
 
 export const PortfolioItem = ({ data }) => {
+  console.dir(data.node)
   return (
     <div className={"column is-4"}>
       <div className="card portfolio-item">
         <div className="card-header">
           <div className="card-header-title">
-            {data.node.frontmatter.title}
+            <Link to={data.node.frontmatter.path}>
+              {data.node.frontmatter.title}
+            </Link>
           </div>
         </div>
         <div>
@@ -19,19 +22,11 @@ export const PortfolioItem = ({ data }) => {
           <div className="description">
             {data.node.frontmatter.description}
           </div>
-          <div className="more-info">
-            <Link to={data.node.frontmatter.path}>
-              <button className="button is-fullwidth">View</button>
-            </Link>
-          </div>
-          <div className="visit-site">
-            <a href={data.node.frontmatter.url}>
-              <button className="button is-fullwidth">
-                Visit site
-              </button>
-            </a>
-          </div>
         </div>
+        <footer className="card-footer">
+          <a href={data.node.frontmatter.url} className="card-footer-item">Visit Site</a>
+          <Link to={data.node.frontmatter.path} className="card-footer-item">More info</Link>
+        </footer>
       </div>
     </div>
   );

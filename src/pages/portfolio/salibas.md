@@ -1,6 +1,6 @@
 ---
 templateKey: 'portfolio'
-path: /portfolio/salibas
+path: '/portfolio/salibas/'
 title: Saliba's Rug Cleaners
 url: https://www.salibasrugcleaners.com
 image: "/img/salibas.png"

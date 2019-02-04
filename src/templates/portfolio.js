@@ -24,14 +24,11 @@ export const PortfolioTemplate = ({
           <div className="description">
             {description}
           </div>
-          <div className="visit-site">
-            <a href={url}>
-              <button className="button is-fullwidth">
-                Visit site
-              </button>
-            </a>
-          </div>
         </div>
+        <footer className="card-footer">
+          <a href={url} className="card-footer-item">Visit Site</a>
+          <a href="#" className="card-footer-item">More info</a>
+        </footer>
       </div>
     </div>
   );

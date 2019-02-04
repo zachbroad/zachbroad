@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Zach Broad',
     description: 'Website and Application Development for the Orlando area.',
-    githubURL: "https://www.github.com/zachbroad/",
+    githubURL: 'https://www.github.com/zachbroad/',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -54,9 +54,15 @@ module.exports = {
             resolve: 'gatsby-remark-copy-linked-files',
             options: {
               destinationDir: 'static',
-            }
-          }
+            },
+          },
         ],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-133755667-1',
       },
     },
     {
@@ -68,4 +74,4 @@ module.exports = {
     'gatsby-plugin-purgecss', // must be after other CSS plugins
     'gatsby-plugin-netlify', // mthubake sure to keep it last in the array
   ],
-}
+};
