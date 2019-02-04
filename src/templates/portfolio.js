@@ -1,47 +1,52 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Helmet from "react-helmet";
-import Content, { HTMLContent } from "../components/Content";
-import Layout from "../components/Layout";
-import GatsbyImage from "gatsby-image";
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
+import { HTMLContent } from '../components/Content';
+import Layout from '../components/Layout';
+import { graphql } from 'gatsby';
+import GatsbyImage from 'gatsby-image';
 
-export const PortfolioTemplate = ({
+export const PortfolioPageTemplate = ({
                                     content,
                                     title,
                                     description,
                                     url,
-                                    image
+                                    image,
                                   }) => {
   return (
-    <div>
-      <div className="card portfolio-item">
-        <div className="card-header">
-          <div className="card-header-title">
-            {title}
-          </div>
+    <section className="section">
+      <div className="container content">
+        <h1>
+          {title}
+        </h1>
+        <div>
+          <GatsbyImage fluid={image} style={{
+            maxWidth: 300,
+            maxHeight: 300,
+          }}/>
         </div>
-        <div className="card-content">
-          <div className="description">
-            {description}
-          </div>
-        </div>
-        <footer className="card-footer">
-          <a href={url} className="card-footer-item">Visit Site</a>
-          <a href="#" className="card-footer-item">More info</a>
-        </footer>
+        <p>
+          {description}
+        </p>
       </div>
-    </div>
+    </section>
   );
 };
 
-export default PortfolioTemplate;
+PortfolioPageTemplate.propTypes = {
+  title: PropTypes.string.isRequired,
+  content: PropTypes.string,
+  contentComponent: PropTypes.func,
+  description: PropTypes.string,
+  image: PropTypes.object,
+}
 
-const PortfolioObject = ({ data }) => {
+const PortfolioPage = ({ data }) => {
   const { markdownRemark: obj } = data;
 
   return (
     <Layout>
-      <PortfolioTemplate
+      <PortfolioPageTemplate
         content={obj.html}
         contentComponent={HTMLContent}
         helmet={
@@ -55,21 +60,25 @@ const PortfolioObject = ({ data }) => {
         title={obj.frontmatter.title}
         description={obj.frontmatter.description}
         url={obj.frontmatter.url}
+
         image={obj.frontmatter.image.childImageSharp.fluid}
       />
     </Layout>
   );
 };
 
-PortfolioObject.propTypes = {
+PortfolioPage.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object
-  })
+    markdownRemark: PropTypes.object,
+  }),
 };
 
+
+export default PortfolioPage;
+
 export const pageQuery = graphql`
-  query PortfolioObjects {
-    markdownRemark {
+  query PortfolioObjects($id: String!) {
+    markdownRemark(id: { eq: $id }) {
 			id
 			html
 			frontmatter {
@@ -87,3 +96,4 @@ export const pageQuery = graphql`
 		}
   }
 `;
+

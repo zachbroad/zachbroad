@@ -15,6 +15,7 @@ export const Portfolio = () => {
                 title
                 description
                 url
+                path
                 image {
                   childImageSharp {
                     fluid {
@@ -32,8 +33,8 @@ export const Portfolio = () => {
                    console.dir(data);
                    const { edges: items } = data.allMarkdownRemark;
 
-                   const portfolioItems = items.map(item => (
-                     <PortfolioItem data={item} key={item.id}/>
+                   const portfolioItems = items.map((item, index) => (
+                     <PortfolioItem data={item} key={index}/>
                    ));
                    return (
                      <div className="section columns">

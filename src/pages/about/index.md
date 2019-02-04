@@ -15,3 +15,11 @@ PRPL stands for:
 * Pre-cache remaining routes.
 * Lazy-load and create remaining routes on demand.
 
+
+### Quick
+I use the latest technology to ensure a modern, quick experience for all users.
+
+
+### Easy to Use
+I use technologies that allow anybody to edit content on a website without much in-depth technical knowledge.
+
