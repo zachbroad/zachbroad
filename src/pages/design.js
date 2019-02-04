@@ -7,6 +7,7 @@ class DesignPage extends Component {
       <Layout>
         <div className="container content">
           <h1>Web Design and Development</h1>
+          <p></p>
         </div>
       </Layout>
     );

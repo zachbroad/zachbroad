@@ -42,7 +42,7 @@ class Services extends Component {
                   <LearnMore url="/content/"/>
                 </article>
               </div>
-              <div className="tile is-parent">
+              <div className="tile is-parent is-vertical">
                 <article className="tile is-child notification is-info">
                   <p className="title">Logo Design</p>
                   <p className="subtitle">
@@ -51,6 +51,14 @@ class Services extends Component {
                   <div className="content">
                     Our highly skilled team of designers can help you prepare your brand
                     for its digital presence with a beautiful, eye-catching logo.
+                  </div>
+                  <LearnMore url="/logo/"/>
+                </article>
+                <article className="tile is-child notification is-dark">
+                  <p className="title">Search Engine Optimization</p>
+                  <p className="subtitle">Stand out among your competitors on Google</p>
+                  <div className="content">
+                    Search engine optimization
                   </div>
                   <LearnMore url="/logo/"/>
                 </article>

@@ -25,9 +25,10 @@ export default class IndexPage extends React.Component {
         </div>
 
 
-        <div className="container contact-form">
+        <div className="container contact-form is-3">
           <div className="card">
             <div className="card-content">
+              <h1 className="title is-2">Let's get in touch</h1>
               <ContactForm/>
             </div>
           </div>
