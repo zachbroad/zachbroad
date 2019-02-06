@@ -4,31 +4,28 @@ import Helmet from 'react-helmet';
 import { HTMLContent } from '../components/Content';
 import Layout from '../components/Layout';
 import { graphql } from 'gatsby';
-import GatsbyImage from 'gatsby-image';
 
-export const PortfolioPageTemplate = ({
-                                        content,
-                                        title,
-                                        description,
-                                        url,
-                                        image,
-                                      }) => {
+export const ServicePageTemplate = ({
+                                      content,
+                                      title,
+                                      description,
+                                    }) => {
   return (
     <section className="section">
       <div className="container content">
-        <h1>{title}</h1>
-        <GatsbyImage fluid={image} style={{
-          maxWidth: 300,
-          maxHeight: 300,
-        }}/>
-        <p>{description}</p>
+        <h1>
+          {title}
+        </h1>
+        <p>
+          {description}
+        </p>
         <HTMLContent content={content}/>
       </div>
     </section>
   );
 };
 
-PortfolioPageTemplate.propTypes = {
+ServicePageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
@@ -36,12 +33,12 @@ PortfolioPageTemplate.propTypes = {
   image: PropTypes.object,
 };
 
-const PortfolioPage = ({ data }) => {
+const ServicePage = ({ data }) => {
   const { markdownRemark: obj } = data;
 
   return (
     <Layout>
-      <PortfolioPageTemplate
+      <ServicePageTemplate
         content={obj.html}
         contentComponent={HTMLContent}
         helmet={
@@ -54,41 +51,28 @@ const PortfolioPage = ({ data }) => {
         }
         title={obj.frontmatter.title}
         description={obj.frontmatter.description}
-        url={obj.frontmatter.url}
-
-        image={obj.frontmatter.image.childImageSharp.fluid}
       />
     </Layout>
   );
 };
 
-PortfolioPage.propTypes = {
+ServicePage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 };
 
 
-export default PortfolioPage;
+export default ServicePage;
 
 export const pageQuery = graphql`
-  query PortfolioObjects($id: String!) {
+  query ServiceQuery($id: String!) {
     markdownRemark(id: { eq: $id }) {
-			id
+      id
 			html
 			frontmatter {
         title
-        description
-        url
-        image {
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
 			}
 		}
   }
 `;
-

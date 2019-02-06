@@ -25,18 +25,22 @@ export default class IndexPage extends React.Component {
         </div>
 
 
-        <div className="container contact-form is-3">
+        <div className="container contact-form">
           <div className="card">
             <div className="card-content">
-              <h1 className="title is-2">Let's get in touch</h1>
+              <h1 className="title is-2 has-text-centered">Let's get in touch</h1>
+              <p className="has-text-centered">
+                I offer free in-person consultations to those
+                in the local Orlando area.
+              </p>
               <ContactForm/>
             </div>
           </div>
         </div>
 
-        <div className="container">
-          <BlogFeed posts={posts}/>
-        </div>
+        {/*<div className="container">*/}
+          {/*<BlogFeed posts={posts}/>*/}
+        {/*</div>*/}
       </Layout>
     );
   }

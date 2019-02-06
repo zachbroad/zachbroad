@@ -1,4 +1,5 @@
 @import '../variables'
+@import "~bulma/sass/utilities/mixins"
 
 .design-dev
   background-color: $blue
@@ -9,12 +10,11 @@
   color: $white
 
 #services
-  margin: 1rem
+  margin: 4rem .5rem
 
-//.notification.content-management
-//  background-color: $light-grey
-//  color: $black
+.services-list-container
+  display: grid
+  grid-gap: .5rem
+  +tablet
+    grid-template-columns: repeat(2, 50%)
 
-//.notification.is-info
-//  background-color: $blue
-//  color: $black

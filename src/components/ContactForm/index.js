@@ -6,6 +6,7 @@ class ContactForm extends Component {
   render() {
     return (
       <form
+        className="contact-form"
         name="contact"
         method="post"
         action="/contact/thanks/"
@@ -59,7 +60,7 @@ class ContactForm extends Component {
           </div>
         </div>
         <div className="field">
-          <button className="button is-fullwidth is-link" type="submit">Send</button>
+          <button className="button is-fullwidth is-brand" type="submit">Send</button>
         </div>
       </form>
     );
