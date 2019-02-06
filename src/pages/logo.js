@@ -7,6 +7,9 @@ class LogoPage extends Component {
       <Layout>
         <div className="container content">
           <h1>Logo Design</h1>
+          <p>
+
+          </p>
         </div>
       </Layout>
     );

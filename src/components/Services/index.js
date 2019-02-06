@@ -26,7 +26,7 @@ class Services extends Component {
                     I can do anything from basic WordPress sites to custom solutions
                     specifically designed for your business.
                   </div>
-                  <LearnMore url="/design/"/>
+                  {/*<LearnMore url="/design/"/>*/}
                 </article>
                 <article className="tile is-child notification is-warning">
                   <p className="title">Content Management</p>
@@ -39,7 +39,7 @@ class Services extends Component {
                       industry can be a lot of work.
                     </p>
                   </div>
-                  <LearnMore url="/content/"/>
+                  {/*<LearnMore url="/content/"/>*/}
                 </article>
               </div>
               <div className="tile is-parent is-vertical">
@@ -52,7 +52,7 @@ class Services extends Component {
                     Our highly skilled team of designers can help you prepare your brand
                     for its digital presence with a beautiful, eye-catching logo.
                   </div>
-                  <LearnMore url="/logo/"/>
+                  {/*<LearnMore url="/logo/"/>*/}
                 </article>
                 <article className="tile is-child notification is-dark">
                   <p className="title">Search Engine Optimization</p>
@@ -60,7 +60,7 @@ class Services extends Component {
                   <div className="content">
                     Search engine optimization
                   </div>
-                  <LearnMore url="/logo/"/>
+                  {/*<LearnMore url="/logo/"/>*/}
                 </article>
               </div>
             </div>
@@ -77,7 +77,7 @@ class Services extends Component {
                     strategies for reaching out to existing customers.
                   </p>
                 </div>
-                <LearnMore url="/email/"/>
+                {/*<LearnMore url="/email/"/>*/}
               </article>
             </div>
           </div>

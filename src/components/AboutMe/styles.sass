@@ -1,6 +1,6 @@
 @import '../variables'
 
-.image.zach
+.zach
   width: 256px
   height: 256px
   border-radius: 128px
@@ -8,7 +8,7 @@
   margin-left: auto
   margin-top: 2rem
   margin-bottom: 2rem
-  border: 1px solid $off-white
+  border: 1px solid $white
   -webkit-box-shadow: 0px 4px 30px 0px rgba(50, 50, 50, 0.68)
   -moz-box-shadow: 0px 4px 30px 0px rgba(50, 50, 50, 0.68)
   box-shadow: 0px 4px 30px 0px rgba(50, 50, 50, 0.68)
@@ -19,4 +19,28 @@
   background-color: $blue
 
   h1, h2, h3, h4, h5, h6, p
-    color: $off-white
+    color: $white
+
+
+.about-content
+  max-width: 600px
+  margin: 0 auto
+
+.about-container-buttons
+  display: flex
+  flex-direction: row
+  margin-left: auto
+  margin-right: auto
+  justify-content: space-evenly
+  max-width: 400px
+
+.is-brand
+  background-color: $brand
+  border: 1px solid darken($brand, 3)
+  color: #fff
+
+  &:hover
+    background-color: darken($brand, 3)
+    border: 1px solid darken($brand, 10)
+    color: $black
+

@@ -7,6 +7,9 @@ class ContentManagementPage extends Component {
       <Layout>
         <div className="container content">
           <h1>Content Management Services</h1>
+          <p>
+
+          </p>
         </div>
       </Layout>
     );
