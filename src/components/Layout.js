@@ -41,6 +41,7 @@ const TemplateWrapper = ({ children }) => (
           <link href='https://fonts.googleapis.com/css?family=Merriweather+Sans:800' rel='stylesheet' type='text/css'/>
           <link href='https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,200' rel='stylesheet'
                 type='text/css'/>
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"/>
         </Helmet>
         <Navbar/>
         <div>{children}</div>

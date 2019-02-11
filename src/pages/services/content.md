@@ -2,6 +2,7 @@
 templateKey: service
 path: /services/content
 title: Content Management
+icon: fa-edit
 description: >-
     The proof is in the pudding
 ---

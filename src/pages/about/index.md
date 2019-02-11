@@ -4,7 +4,20 @@ path: /about
 title: About our websites
 ---
 
-### PRPL Compliant
+
+## Search Engine Optimization
+All of my websites come with basic Search Engine Optimization (SEO).
+
+SEO is a marketing discipline focused on growing visibility in organic (non-paid) search engine results.
+
+SEO encompasses both the technical and creative elements required to improve rankings, drive traffic, and increase awareness in search engines.
+
+There are many aspects to SEO, from the words on your page to the way other sites link to you on the web.
+
+Sometimes SEO is simply a matter of making sure your site is structured in a way that search engines understand. All of my websites are designed to comply with all popular search engines' specifications.
+
+
+## PRPL Compliant
 PRPL is a web site architecture developed by Google for building websites and apps that work exceptionally well on smartphones and other devices with unreliable network connections.
 
 
@@ -15,6 +28,7 @@ PRPL stands for:
 * Pre-cache remaining routes.
 * Lazy-load and create remaining routes on demand.
 
+What PRPL means for you and your users is that your website will load with minimal delays. With most web traffic nowadays coming from mobile devices, it's important for websites to be designed in a way that allows users with sub-par service to still access your page.
 
 ### Quick
 I use the latest technology to ensure a modern, quick experience for all users.

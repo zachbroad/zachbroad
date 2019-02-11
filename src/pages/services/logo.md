@@ -2,6 +2,7 @@
 templateKey: service
 path: /services/logo
 title: Logo Design
+icon: fa-image
 description: >-
     First impressions matter.
 ---

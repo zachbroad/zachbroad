@@ -2,6 +2,7 @@
 templateKey: service
 path: /services/email
 title: Email Marketing
+icon: fa-envelope
 description: >-
     Keep in touch with your customers
 ---
