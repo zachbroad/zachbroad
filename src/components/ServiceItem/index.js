@@ -12,7 +12,6 @@ export const ServiceItem = ({ data }) => (
       <p className="subtitle">{data.frontmatter.description}</p>
     </div>
     <div className="service-body">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cupiditate doloremque eligendi, expedita explicabo illum magnam necessitatibus nobis non obcaecati placeat provident quasi quibusdam quo rerum saepe, ullam voluptates voluptatum?
       <Link to={data.frontmatter.path}>
         <button className="button is-fullwidth">Learn more</button>
       </Link>

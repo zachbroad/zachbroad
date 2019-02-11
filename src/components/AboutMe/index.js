@@ -7,7 +7,7 @@ import { graphql, StaticQuery, Link } from "gatsby";
 
 const AboutMe = () => (
   <div className="about-container">
-    <div className="container" style={{ marginBottom: "2rem", textAlign: "center" }}>
+    <div className="container is-fluid" style={{ marginBottom: "2rem", textAlign: "center" }}>
       <StaticQuery query={graphql`
       query MyPicture {
         allFile(filter: {name: {eq:"me"}}) {
