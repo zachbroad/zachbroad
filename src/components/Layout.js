@@ -1,10 +1,10 @@
-import React from "react";
-import Helmet from "react-helmet";
-import { StaticQuery, graphql } from "gatsby";
+import React from 'react';
+import Helmet from 'react-helmet';
+import { StaticQuery, graphql } from 'gatsby';
 
-import Navbar from "./Navbar";
-import "./all.sass";
-import Footer from "./Footer";
+import Navbar from './Navbar';
+import './all.sass';
+import Footer from './Footer';
 
 const TemplateWrapper = ({ children }) => (
   <StaticQuery
@@ -36,6 +36,11 @@ const TemplateWrapper = ({ children }) => (
           <meta property="og:title" content={data.site.siteMetadata.title}/>
           <meta property="og:url" content="/"/>
           <meta property="og:image" content="/img/og-image.jpg"/>
+
+
+          <link href='https://fonts.googleapis.com/css?family=Merriweather+Sans:800' rel='stylesheet' type='text/css'/>
+          <link href='https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,200' rel='stylesheet'
+                type='text/css'/>
         </Helmet>
         <Navbar/>
         <div>{children}</div>

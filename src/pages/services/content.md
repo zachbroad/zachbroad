@@ -3,7 +3,7 @@ templateKey: service
 path: /services/content
 title: Content Management
 description: >-
-    I offer content production and management services for new and existing websites.
+    The proof is in the pudding
 ---
 I offer content production and management services for new and existing websites.
 

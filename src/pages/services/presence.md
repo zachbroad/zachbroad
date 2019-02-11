@@ -3,7 +3,7 @@ templateKey: service
 path: /services/presence
 title: Taking your business to the next level
 description: >-
-    A solid online presence is essential in today's market.
+    Welcome to the digital age
 ---
 
 ### A solid online presence is essential in today's market.

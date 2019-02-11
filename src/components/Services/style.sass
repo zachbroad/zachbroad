@@ -12,9 +12,12 @@
 #services
   margin: 4rem .5rem
 
+.services-container
+  +desktop
+    display: grid
+    grid-gap: .5rem
+    grid-template-columns: 1fr 2fr
+
 .services-list-container
-  display: grid
-  grid-gap: .5rem
-  +tablet
-    grid-template-columns: repeat(2, 50%)
+  text-align: right
 
