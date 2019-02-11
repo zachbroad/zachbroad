@@ -4,15 +4,17 @@
 .contact-form
   margin: 2rem auto
   +tablet
-    padding: 4rem 0
-    margin: 2rem 0.5rem
+    padding: 4rem auto
+    margin: 2rem 1rem
   +mobile
-    margin: 2rem 0rem
+    margin: 0
+    padding: 0
   max-width: 960px
 
 
 .contact-form-container
-  background-color: $orange
-  border-top: 1px solid darken($orange, 5)
-  border-bottom: 1px solid darken($orange, 5)
+  +tablet
+    background-color: $orange
+    border-top: 1px solid darken($orange, 5)
+    border-bottom: 1px solid darken($orange, 5)
 

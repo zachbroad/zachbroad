@@ -6,7 +6,7 @@ import GatsbyImage from "gatsby-image";
 export const PortfolioItem = ({ data }) => {
   console.dir(data.node)
   return (
-    <div className={"column is-4"}>
+    <div className={"column is-4 is-flex"}>
       <div className="card portfolio-item">
         <div className="card-header">
           <div className="card-header-title">
