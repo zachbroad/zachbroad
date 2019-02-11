@@ -20,7 +20,9 @@ We will discuss the following:
 - Examples of logos you like
 - Color scheme 
 - What you want your logo to "stand for"
-- 
 ### Mock-up
+Once we find a rough idea of what you are looking for in a logo, we will make a few iterations on the idea.
 ### Revisions
+Here is where you can make changes to your logo before the final product.
 ### Finalizing
+Your new logo is ready to be used all over the web!

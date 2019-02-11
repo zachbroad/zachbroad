@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './styles.sass';
+import { Link } from 'gatsby';
 
 class SlowWebsiteHero extends Component {
   render() {
@@ -20,9 +21,11 @@ class SlowWebsiteHero extends Component {
           <p>
             Every second matters. Don't let a slow website bring your business to a halt.
           </p>
-          <button className="button">
-            <a href="#services">Learn more</a>
-          </button>
+          <Link to="/about">
+            <button className="button is-light">
+              Learn more
+            </button>
+          </Link>
         </div>
       </section>
     );

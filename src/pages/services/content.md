@@ -4,7 +4,7 @@ path: /services/content
 title: Content Management
 icon: fa-edit
 description: >-
-    The proof is in the pudding
+    Content is King
 ---
 I offer content production and management services for new and existing websites.
 

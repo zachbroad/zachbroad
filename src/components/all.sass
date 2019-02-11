@@ -3,21 +3,11 @@
 @import "~bulma"
 @import './variables'
 @import './typography'
-
-// Config vars
-// Kalidi logo brand color: #FD461E
-$kaldi-red: #D64000
-$kaldi-red-invert: #fff
+@import './components'
 
 $primary: $brand
-$primary-invert: $blue
+$primary-invert: $orange
 $body-color: #333
-
-//body
-//  background-color: $off-white
-
-.navbar .navbar-menu
-  box-shadow: none !important
 
 .content .taglist
   list-style: none
@@ -57,27 +47,5 @@ $body-color: #333
   border: 1px solid $dark-blue
   padding: 2rem
   margin-bottom: 1rem
-
-.contact-form
-  padding: 2rem 0
-
-.is-brand
-  background-color: $brand
-  border: 1px solid darken($brand, 3)
-  color: #fff
-
-  &:hover
-    background-color: darken($brand, 3)
-    border: 1px solid darken($brand, 10)
-    color: darken($white, 4)
-
-blockquote
-  border-left-color: $orange !important
-
-a
-  color: $brand
-
-a:hover
-  color: darken($brand, 10)
 
 

@@ -10,7 +10,7 @@ export const ServiceItem = ({ data }) => (
     <div className="service-header">
       <div className="service-header-bar">
         <i className={"fas fa-3x " + data.frontmatter.icon}/>
-        <Link to={data.frontmatter.path} className="title is-4">
+        <Link to={data.frontmatter.path} className="is-4">
           <h2 className="service-title is-inline">{data.frontmatter.title}</h2>
         </Link>
       </div>
