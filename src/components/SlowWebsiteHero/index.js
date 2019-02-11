@@ -21,7 +21,7 @@ class SlowWebsiteHero extends Component {
           <p>
             Every second matters. Don't let a slow website bring your business to a halt.
           </p>
-          <Link to="/about">
+          <Link to="/checklist">
             <button className="button is-light">
               Learn more
             </button>

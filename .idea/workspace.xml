@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81efbd1a-d76b-457c-b73f-aa7d1183a2f1" name="Default Changelist" comment="k">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactForm/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactForm/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PortfolioItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortfolioItem/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/all.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/all.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SlowWebsiteHero/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SlowWebsiteHero/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/ContactForm/style.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="208">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -66,20 +63,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/components.sass">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/SlowWebsiteHero/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="368">
+              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Services/index.js">
+        <entry file="file://$PROJECT_DIR$/src/components/components.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            <state relative-caret-position="304">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -197,7 +194,6 @@
         <option value="$PROJECT_DIR$/src/pages/services/content.md" />
         <option value="$PROJECT_DIR$/src/components/ServiceItem/index.js" />
         <option value="$PROJECT_DIR$/src/components/ServiceItem/styles.sass" />
-        <option value="$PROJECT_DIR$/src/components/SlowWebsiteHero/index.js" />
         <option value="$PROJECT_DIR$/src/pages/index.js" />
         <option value="$PROJECT_DIR$/src/components/AboutMe/styles.sass" />
         <option value="$PROJECT_DIR$/src/components/SlowWebsiteHero/styles.sass" />
@@ -208,6 +204,7 @@
         <option value="$PROJECT_DIR$/src/pages/portfolio/portfolioIndex.js" />
         <option value="$PROJECT_DIR$/src/pages/portfolio/index.js" />
         <option value="$PROJECT_DIR$/src/components/ContactForm/style.sass" />
+        <option value="$PROJECT_DIR$/src/components/SlowWebsiteHero/index.js" />
       </list>
     </option>
   </component>
@@ -321,12 +318,12 @@
       <workItem from="1549415127541" duration="27000" />
       <workItem from="1549888421159" duration="1015000" />
       <workItem from="1549889751694" duration="9772000" />
-      <workItem from="1549905668758" duration="3377000" />
+      <workItem from="1549905668758" duration="3419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52182000" />
+    <option name="totallyTimeSpent" value="52224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="77" y="23" width="1485" height="1027" extended-state="0" />
@@ -567,13 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SlowWebsiteHero/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AboutMe/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -694,8 +684,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ContactForm/style.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="208">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SlowWebsiteHero/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
         </state>
       </provider>
     </entry>
