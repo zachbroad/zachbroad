@@ -14,7 +14,7 @@ const query = graphql`
             title
             path
             description
-            
+            icon 
           }
         }
       }
@@ -27,8 +27,8 @@ export const ServiceList = () => {
     <StaticQuery
       query={query}
       render={data => {
-        const serviceItems = data.allMarkdownRemark.edges.map(d => (
-          <ServiceItem key={d.id} data={d.node}/>
+        const serviceItems = data.allMarkdownRemark.edges.map((d, index) => (
+          <ServiceItem key={index} data={d.node}/>
         ));
         return (
           <div className="services-list-container">
