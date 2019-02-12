@@ -1,9 +1,17 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our websites
+title: About
 ---
 
+# A little about me
+My name is Zach Broad, I'm currently a college student here in the Orlando area pursuing my Bachelor's degree in Computer Science.
+I've lived in Florida for most of my life, but I'm new to Orlando.
+
+I help businesses with their online presence so they can focus on what matters -- business.
+
+
+# About my websites
 
 ## Search Engine Optimization
 All of my websites come with basic Search Engine Optimization (SEO).

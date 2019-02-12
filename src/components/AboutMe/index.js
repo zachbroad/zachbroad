@@ -1,39 +1,14 @@
 import React, { Component } from "react";
-import Zach from "../../img/me.jpeg";
 import "./styles.sass";
-import GatsbyImage from "gatsby-image";
 import { graphql, StaticQuery, Link } from "gatsby";
+import Zach from '../Zach';
 
 
 const AboutMe = () => (
   <div className="about-container">
     <div className="container is-fluid" style={{ marginBottom: "2rem", textAlign: "center" }}>
-      <StaticQuery query={graphql`
-      query MyPicture {
-        allFile(filter: {name: {eq:"me"}}) {
-          edges {
-            node {
-              childImageSharp {
-                fluid {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-        }
-      }
-      `}
-                   render={(d) => {
-                     const fluidImage = d.allFile.edges[0].node.childImageSharp.fluid;
-                     return (
-                       <GatsbyImage
-                         fluid={fluidImage}
-                         placeholderClassName='image zach is-small is-centered is-vcentered'
-                         className="image zach is-small is-centered is-vcentered"/>
-                     );
-                   }}
-      />
       <div>
+        <Zach />
         <h1 className="title is-1">Zach Broad</h1>
         <h2 className="subtitle is-3">Orlando, FL</h2>
 
