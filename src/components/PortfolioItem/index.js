@@ -1,18 +1,21 @@
-import React from "react";
-import { Link } from "gatsby";
-import "./style.sass";
-import GatsbyImage from "gatsby-image";
+import React from 'react';
+import { Link } from 'gatsby';
+import './style.sass';
+import GatsbyImage from 'gatsby-image';
 
 export const PortfolioItem = ({ data }) => {
-  console.dir(data.node)
+  console.dir(data.node);
   return (
-    <div className={"column is-4 is-flex"}>
+    <div className={'column is-4 is-flex'}>
       <div className="card portfolio-item">
         <div className="card-header">
           <div className="card-header-title">
-            <Link to={data.node.frontmatter.path}>
+            {/*<Link to={data.node.frontmatter.path}>*/}
+            {/*{data.node.frontmatter.title}*/}
+            {/*</Link>*/}
+            <a href={data.node.frontmatter.url}>
               {data.node.frontmatter.title}
-            </Link>
+            </a>
           </div>
         </div>
         <div>
@@ -25,7 +28,7 @@ export const PortfolioItem = ({ data }) => {
         </div>
         <footer className="card-footer">
           <a href={data.node.frontmatter.url} className="card-footer-item">Visit Site</a>
-          <Link to={data.node.frontmatter.path} className="card-footer-item">More info</Link>
+          {/*<Link to={data.node.frontmatter.path} className="card-footer-item">More info</Link>*/}
         </footer>
       </div>
     </div>
