@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Zach Broad',
     description: 'Website and Application Development for the Orlando area.',
+    siteUrl: 'https://www.zachbroad.com',
     githubURL: 'https://www.github.com/zachbroad/',
   },
   plugins: [
@@ -65,6 +66,13 @@ module.exports = {
         trackingId: 'UA-133755667-1',
       },
     },
+    {
+      resolve: 'gatsby-plugin-nprogress',
+      options: {
+        color: 'lime',
+      },
+    },
+    'gatsby-plugin-robots-txt',
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {

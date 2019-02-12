@@ -10,7 +10,7 @@ As a business owner, I understand how difficult it can be to keep up with the ev
 
 ## Brand Identity
 
-- Logo
+- [Eye-catching logo](/services/logo/)
 - Slogan
 - Awareness 
 
@@ -20,9 +20,15 @@ Not just any website will cut it nowadays.
 People are more impatient than ever -- did you know that over half of users will leave your page if it takes longer than 3 seconds to load?! 
 Don't let a slow website hold your business back.
 
-- Mobile-friendly
-- Fast
-- Good content
+
+### You'll want to make sure you have...
+
+- [Mobile-friendly design](/services/design/)
+- Fast loading times
+- [Good content](/services/content/)
+- [Optimized for Search Engines (SEO)](/services/seo/)
+- Consistent branding with Social Media profiles
+- [Email newsletter](/services/email/)
 
 ## Social Media
 
@@ -33,11 +39,17 @@ If you aren't using social media in 2019, you're definitely missing out on poten
 - Facebook
 - Twitter
 - YouTube
+- Pinterest
+- LinkedIn
+
+While you don't need to be active on every social network, it's important to figure out
+what the best ones are for your business.
+
 
 ## Local directories
 
 Local listings such as the following are not only important for your business, but also your website. 
-Adding your website to multiple local directories such as Yelp! will also help your website rank for search terms such as _"barbershops near me"_. 
+Adding your website to multiple local directories such as Yelp! will also help your website rank for search terms such as _"barbershops near me"_.
 
 - Yelp!
 - Google MyBusiness

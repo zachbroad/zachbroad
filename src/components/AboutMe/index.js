@@ -28,6 +28,7 @@ const AboutMe = () => (
                      return (
                        <GatsbyImage
                          fluid={fluidImage}
+                         placeholderClassName='image zach is-small is-centered is-vcentered'
                          className="image zach is-small is-centered is-vcentered"/>
                      );
                    }}
