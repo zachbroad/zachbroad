@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81efbd1a-d76b-457c-b73f-aa7d1183a2f1" name="Default Changelist" comment="k">
-      <change beforePath="$PROJECT_DIR$/src/components/SlowWebsiteHero/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SlowWebsiteHero/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="81efbd1a-d76b-457c-b73f-aa7d1183a2f1" name="Default Changelist" comment="k" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -31,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/ContactForm/style.sass">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="208">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -318,16 +316,15 @@
       <workItem from="1549415127541" duration="27000" />
       <workItem from="1549888421159" duration="1015000" />
       <workItem from="1549889751694" duration="9772000" />
-      <workItem from="1549905668758" duration="3419000" />
+      <workItem from="1549905668758" duration="3614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52224000" />
+    <option name="totallyTimeSpent" value="52419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="77" y="23" width="1485" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18855219" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -685,7 +682,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/ContactForm/style.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
