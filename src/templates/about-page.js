@@ -45,8 +45,8 @@ const AboutPage = ({ data }) => {
           <Helmet
             titleTemplate="%s"
           >
-            <title>{`${obj.frontmatter.seoTitle}`}</title>
-            <meta name="description" content={`${obj.frontmatter.seoDescription}`}/>
+            <title>{`${post.frontmatter.seoTitle}`}</title>
+            <meta name="description" content={`${post.frontmatter.seoDescription}`}/>
           </Helmet>
         }
       />
