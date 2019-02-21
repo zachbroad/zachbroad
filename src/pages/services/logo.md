@@ -2,6 +2,8 @@
 templateKey: service
 path: /services/logo
 title: Logo Design
+seoTitle: Logo Design in Alafaya, FL
+seoDescription: First impressions matter. Secure your brand's digital presence with a beautiful, memorable logo.
 icon: fa-image
 description: >-
     First impressions matter.

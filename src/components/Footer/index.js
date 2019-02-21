@@ -1,5 +1,6 @@
-import React, { Component } from "react";
-import { Link } from "gatsby";
+import React, { Component } from 'react';
+import { Link } from 'gatsby';
+import './styles.sass'
 
 class Footer extends Component {
   render() {
@@ -7,7 +8,11 @@ class Footer extends Component {
       <footer className="footer">
         <div className="content has-text-centered">
           <p>Copyright © 2019 Zach Broad</p>
-          <Link to="/privacy">Privacy Policy</Link>
+
+          <div className="footer-links">
+            <Link to="/contact">Contact Me</Link>
+            <Link to="/privacy">Privacy Policy</Link>
+          </div>
         </div>
       </footer>
     );

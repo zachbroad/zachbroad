@@ -9,9 +9,11 @@ export const ServicePageTemplate = ({
                                       content,
                                       title,
                                       description,
+                                      helmet,
                                     }) => {
   return (
     <section className="section">
+      {helmet}
       <div className="container content">
         <h1>
           {title}
@@ -43,10 +45,10 @@ const ServicePage = ({ data }) => {
         contentComponent={HTMLContent}
         helmet={
           <Helmet
-            titleTemplate="%s | Portfolio"
+            titleTemplate="%s | Zach Broad"
           >
-            <title>{`${obj.frontmatter.title}`}</title>
-            <meta name="description" content={`${obj.frontmatter.description}`}/>
+            <title>{`${obj.frontmatter.seoTitle}`}</title>
+            <meta name="description" content={`${obj.frontmatter.seoDescription}`}/>
           </Helmet>
         }
         title={obj.frontmatter.title}
@@ -72,6 +74,8 @@ export const pageQuery = graphql`
 			html
 			frontmatter {
         title
+        seoTitle
+        description
 			}
 		}
   }

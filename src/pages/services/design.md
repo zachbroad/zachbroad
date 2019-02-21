@@ -3,6 +3,8 @@ templateKey: service
 path: /services/design
 title: Web Design and Development
 icon: fa-code
+seoTitle: Custom Web Design and Development in Alafaya, FL
+seoDescription: Websites so quick - if you blink, you'll miss the loading screen.
 description: >-
     Beautiful, functional, performant
 ---

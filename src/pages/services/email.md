@@ -2,13 +2,19 @@
 templateKey: service
 path: /services/email
 title: Email Marketing
+seoTitle: Email Marketing for Small Businesses in Alafaya, FL
+seoDescription: Email marketing is the #1 digital marketing strategy in today's age. Start building your email list today!
 icon: fa-envelope
 description: >-
     Keep in touch with your customers
 ---
 
 
-If your business doesn't have a newsletter, you're missing out.
+### What is email marketing?
+
+Email marketing is the highly effective digital marketing strategy of sending emails to prospects and customers. Effective marketing emails convert prospects into customers, and turn one-time buyers into loyal, raving fans.t
+
+### What I offer
 
 I can show you how to grow your email list, as well as the best strategies for reaching out to existing customers.
 

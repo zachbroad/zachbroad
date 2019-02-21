@@ -2,11 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
-import phone from '../img/phone.jpg';
 import AboutMe from '../components/AboutMe/';
 import SlowWebsiteHero from '../components/SlowWebsiteHero';
-import BlogFeed from '../components/BlogFeed';
-import MobileWorld from '../components/MobileWorld';
 import Services from '../components/Services';
 import ContactForm from '../components/ContactForm';
 
@@ -17,7 +14,7 @@ export default class IndexPage extends React.Component {
 
     return (
       <Layout>
-        <AboutMe/>
+        <AboutMe />
         <SlowWebsiteHero/>
 
         <div className="container">

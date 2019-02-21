@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Zach Broad',
-    description: 'Website and Application Development for the Orlando area.',
+    title: 'Alafaya Websites and Digital Marketing | Zach Broad',
+    description: 'Web design, development, logo design, search engine optimization, content management, and email marketing in the Alafaya, FL area.',
     siteUrl: 'https://www.zachbroad.com',
     githubURL: 'https://www.github.com/zachbroad/',
   },

@@ -10,7 +10,7 @@ const AboutMe = () => (
       <div>
         <Zach />
         <h1 className="title is-1">Zach Broad</h1>
-        <h2 className="subtitle is-3">Orlando, FL</h2>
+        <h2 className="subtitle is-3">Alafaya, FL</h2>
 
         <div className="about-content">
           <p>
@@ -19,6 +19,7 @@ const AboutMe = () => (
           </p>
           <p>
             I specialize in web development, design, and digital marketing.
+            Let me help bring your business to the next level.
           </p>
         </div>
 
