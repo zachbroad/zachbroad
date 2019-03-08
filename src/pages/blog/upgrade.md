@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: 6 signs it's time to upgrade your website
-date: 2019-03-08
+date: 2019-03-08T12:00:00.087Z
 description: Is your website outdated? Find out the most common reasons for updating a website.
 tags:
   - informative
