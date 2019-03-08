@@ -15,7 +15,7 @@ export const ServiceItem = ({ data }) => (
       </div>
     </div>
     <div className="service-body">
-      <p className="sub">{data.frontmatter.description}</p>
+      <p className="subtitle">{data.frontmatter.description}</p>
       <Link to={data.frontmatter.path} style={{marginTop: 'auto'}}>
         <button className="button">Learn more</button>
       </Link>
