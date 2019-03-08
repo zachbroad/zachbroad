@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import Layout from "../../components/Layout";
-import BlogFeed from "../../components/BlogFeed";
-import { graphql } from "gatsby";
+import React, { Component } from 'react';
+import Layout from '../../components/Layout';
+import BlogFeed from '../../components/BlogFeed';
+import { graphql } from 'gatsby';
 
 class BlogIndex extends Component {
   render() {
@@ -10,12 +10,14 @@ class BlogIndex extends Component {
 
     return (
       <Layout>
-        <div className="container">
-          <div className="content">
-            <h1>Blog index</h1>
-            <p>Welcome to my blog!</p>
-            <BlogFeed posts={posts}/>
-          </div>
+
+        <div className="container is-fluid section">
+          <h1>My Blog</h1>
+          <p>
+            This is where I post helpful information on web development, SEO, affiliate marketing,
+            and other digital marketing strategies to grow your business.
+          </p>
+          <BlogFeed posts={posts}/>
         </div>
       </Layout>
     );
@@ -38,6 +40,7 @@ query BlogIndexQuery {
         frontmatter {
           title
           templateKey
+          description
           date(formatString: "MMMM DD, YYYY")
         }
       }

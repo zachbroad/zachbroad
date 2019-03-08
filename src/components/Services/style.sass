@@ -10,14 +10,27 @@
   color: $white
 
 #services
-  margin: 4rem .5rem
+  margin: 4rem 1.5rem
 
 .services-container
   +desktop
     display: grid
     grid-gap: 4rem
-    grid-template-columns: 33% 66%
+    //grid-template-columns: 33% 66%
 
 .services-list-container
+  padding: 1.5rem 0
   text-align: right
+  display: grid
+  grid-gap: 1rem
+  +desktop
+    grid-gap: 2rem
+  grid-template-columns: 50% 50%
+  +mobile
+    grid-template-columns: 100%
+
+  .fas
+    transition: .25s all
+  .fas:hover
+    transform: scale(1.1575) rotate(2deg)
 

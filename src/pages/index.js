@@ -6,6 +6,7 @@ import AboutMe from '../components/AboutMe/';
 import SlowWebsiteHero from '../components/SlowWebsiteHero';
 import Services from '../components/Services';
 import ContactForm from '../components/ContactForm';
+import BlogFeed from '../components/BlogFeed';
 
 export default class IndexPage extends React.Component {
   render() {
@@ -14,11 +15,17 @@ export default class IndexPage extends React.Component {
 
     return (
       <Layout>
-        <AboutMe />
+        <AboutMe/>
         <SlowWebsiteHero/>
 
         <div className="container">
           <Services/>
+        </div>
+
+        <div className="blog-feed" style={{ paddingTop: '1rem', paddingBottom: '1rem' }}>
+          <div className="container section blog-feed">
+            <BlogFeed posts={posts}/>
+          </div>
         </div>
 
 
@@ -39,9 +46,6 @@ export default class IndexPage extends React.Component {
           </div>
         </div>
 
-        {/*<div className="container">*/}
-        {/*<BlogFeed posts={posts}/>*/}
-        {/*</div>*/}
       </Layout>
     );
   }
@@ -71,6 +75,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             templateKey
+            description
             date(formatString: "MMMM DD, YYYY")
           }
         }

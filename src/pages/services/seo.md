@@ -17,8 +17,10 @@ SEO is the reason why you're able to find what you're looking for on Google.
 
 Without SEO, your website will struggle to be discovered. It's important that a website is optimized in a way that search engines can easily "crawl" the pages to find what people are looking for. 
 
+### ![Basic-SEO-techniques-SEO-tips-and-trick](seo.png)
 
 ### Basic SEO Package
+
 Standard with all of my websites is a basic SEO package. This includes...
 
 - On-page SEO

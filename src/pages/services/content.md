@@ -6,7 +6,7 @@ seoTitle: Web Content Management in Alafaya, FL
 seoDescription: Content can make or break your website. Don't let bad content ruin a beautiful design.
 icon: fa-edit
 description: >-
-    Content is King
+    I offer content management services for new/existing websites. 
 ---
 
 Even the most beautiful website isn't complete without some compelling content.

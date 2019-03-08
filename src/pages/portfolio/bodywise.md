@@ -11,5 +11,4 @@ description: >-
 
 # About BodyWiseMaine.com
 
-
-## Features
+Body Wise Pilates is a pilates studio located in Downtown Bangor, ME.

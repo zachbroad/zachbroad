@@ -11,5 +11,4 @@ description: >-
 
 # About SalibasRugCleaners.com
 
-
-## Features
+Saliba's Rug Cleaners is an oriental rug cleaning business located in Bangor, ME.  

@@ -6,19 +6,18 @@ import { FaCode } from 'react-icons/fa';
 
 export const ServiceItem = ({ data }) => (
   <div className="service-container">
-    <hr/>
     <div className="service-header">
       <div className="service-header-bar">
-        <i className={"fas fa-3x " + data.frontmatter.icon}/>
+        <i className={'fas fa-3x ' + data.frontmatter.icon}/>
         <Link to={data.frontmatter.path} className="is-4">
           <h2 className="service-title is-inline">{data.frontmatter.title}</h2>
         </Link>
       </div>
-      <h4 className="sub">{data.frontmatter.description}</h4>
     </div>
     <div className="service-body">
-      <Link to={data.frontmatter.path}>
-      <button className="button">Learn more</button>
+      <p className="sub">{data.frontmatter.description}</p>
+      <Link to={data.frontmatter.path} style={{marginTop: 'auto'}}>
+        <button className="button">Learn more</button>
       </Link>
     </div>
   </div>
