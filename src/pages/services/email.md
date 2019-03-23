@@ -2,7 +2,7 @@
 templateKey: service
 path: /services/email
 title: Email Marketing
-seoTitle: Email Marketing for Small Businesses in Alafaya, FL
+seoTitle: Email Marketing for Small Businesses in Orlando, FL
 seoDescription: Email marketing is the #1 digital marketing strategy in today's age. Start building your email list today!
 icon: fa-envelope
 description: >-

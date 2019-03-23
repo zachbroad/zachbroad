@@ -2,7 +2,7 @@
 templateKey: service
 path: /services/content
 title: Content Management
-seoTitle: Web Content Management in Alafaya, FL
+seoTitle: Web Content Management in Orlando, FL
 seoDescription: Content can make or break your website. Don't let bad content ruin a beautiful design.
 icon: fa-edit
 description: >-

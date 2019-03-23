@@ -10,7 +10,7 @@ export default class Index extends Component {
         <Helmet
           titleTemplate="%s"
         >
-          <title>My Portfolio | Zach Broad - Alafaya, FL Websites</title>
+          <title>My Portfolio | Zach Broad - Orlando, FL Websites</title>
           <meta name="description" content={`Check out portfolio and see some of the work I've done for past clients`}/>
         </Helmet>
         <section className="section section--gradient">

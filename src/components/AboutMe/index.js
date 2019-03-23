@@ -10,7 +10,7 @@ const AboutMe = () => (
       <div>
         <Zach />
         <h1 className="title is-1">Zach Broad</h1>
-        <h2 className="subtitle is-3">Alafaya, FL</h2>
+        <h2 className="subtitle is-3">Orlando, FL</h2>
 
         <div className="about-content">
           <p>

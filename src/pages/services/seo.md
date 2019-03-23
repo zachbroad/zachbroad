@@ -2,7 +2,7 @@
 templateKey: service
 path: /services/seo
 title: Search Engine Optimization
-seoTitle: Search Engine Optimization (SEO) in Alafaya, FL
+seoTitle: Search Engine Optimization (SEO) in Orlando, FL
 seoDescription: Let me help you stand out among the competition on Google, and help possible customers discover your businesss.
 icon: fa-search
 description: >-
