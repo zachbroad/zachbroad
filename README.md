@@ -100,5 +100,5 @@ Built with **Django + Django REST Framework** as backend & **Flutter** as a fron
 ## 📬 How to Reach Me
 
 - 📧 **Email**: [me@zachbroad.com](mailto:me@zachbroad.com)
-- 💼 **Linkedin**: [@zachbroad][https://www.linkedin.com/in/zachbroad/]
+- 💼 **Linkedin**: [@zachbroad](https://www.linkedin.com/in/zachbroad/)
 
