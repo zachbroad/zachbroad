@@ -13,9 +13,11 @@
 ## 🌐 Portfolio & Projects
 These are just my favorite projects in my portfolio — please check out my [website portfolio](https://www.zachbroad.com/) for a more complete list of my work.
 
-### [🎶 ECHO — Your Spotify Visualized](https://www.echoyourmusic.com/)
+### [🎶 ECHO — Your Spotify Visualized](https://github.com/zachbroad/echo/)
 A full-stack mobile & web app for users to **explore & share their Spotify listening history** & habits with friends. 
 Built with **Django + Django REST Framework** as backend & **React** as a web frontend.
+
+It's currently pending approval from Spotify, but you can still [check it out]() and explore the app without logging in... If you want to try it out, let me know and I can add your email to the whitelist!
 
 ### [💬 JIRC — Java Internet Relay Chat](https://github.com/zachbroad/jirc/)
 A basic Internet Relay Chat written in Java that implements the IRC protocol specified in the [RFC 1459](https://datatracker.ietf.org/doc/html/rfc1459) & [RFC 2812](https://datatracker.ietf.org/doc/html/rfc2812).
