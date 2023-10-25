@@ -4,8 +4,7 @@
 - 🛠️ **Expertise**: Full stack software development (desktop/web/mobile). Mediavine publisher.
 - 💼 **Skills**: Proficient in Python, Django + Django Rest Framework, JavaScript (React, Vue), RESTful API design, 
 - 🚀 **I’m currently working on**: A Scattergories clone built w/ Django + Vue that uses WebSockets for live multiplayer & GPT-4 to verify validity of answers.
-- 📚 **Education**: Attended Google University, Stack Overflow College, University of YouTube, the local library, and online rabbit holes.
-- 🎓 **Future Education**: Planning to pursue a degree in Computer Engineering.
+- 📚 **Education**: Currently self-taught, with plans to pursue a degree in Computer Engineering.
 - 🌱 **I’m currently learning**: Distributed systems.
 - ⚡ **Fun Facts**: 140 wpm typist. Vim enthusiast. Keyboard hoarder.
 - 💬 **Ask me about**: Scaling websites, CRO & website monetization strategies, my French Bulldog.
