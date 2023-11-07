@@ -1,13 +1,13 @@
 ## 👋 Hi, I'm Zach
 
 - 🌴 **From**: Melbourne, FL, USA
-- 🛠️ **Expertise**: Full stack software development (desktop/web/mobile). Mediavine publisher.
-- 💼 **Skills**: Proficient in Python, Django + Django Rest Framework, JavaScript (React, Vue), RESTful API design, 
-- 🚀 **I’m currently working on**: A Scattergories clone built w/ Django + Vue that uses WebSockets for live multiplayer & GPT-4 to verify validity of answers.
+- 🛠️ **Expertise**: Full stack software development (desktop/web/mobile). SEO. Mediavine publisher.
+- 💼 **Skills**: Proficient in Python, Django + Django Rest Framework, JavaScript (React, Vue), RESTful API design.
+- 🚀 **I’m currently working on**: A Scattergories clone built w/ Django + Vue that uses Socket.IO for live multiplayer & GPT-4 to verify validity of answers.
 - 📚 **Education**: Currently self-taught, with plans to pursue a degree in Computer Engineering.
 - 🌱 **I’m currently learning**: Distributed systems.
 - ⚡ **Fun Facts**: 140 wpm typist. Vim enthusiast. Keyboard hoarder.
-- 💬 **Ask me about**: Scaling websites, CRO & website monetization strategies, my French Bulldog.
+- 💬 **Ask me about**: Keyboards, niche websites, my French Bulldog.
 
 ## 🌐 Portfolio & Projects
 These are just my favorite projects in my portfolio — please check out my [website portfolio](https://www.zachbroad.com/) for a more complete list of my work.
