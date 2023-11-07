@@ -12,6 +12,14 @@
 ## 🌐 Portfolio & Projects
 These are just my favorite projects in my portfolio — please check out my [website portfolio](https://www.zachbroad.com/) for a more complete list of my work.
 
+### [🎮 Categories.LIVE — Multiplayer Game](https://categories.live/)
+A real-time multiplayer Scattergories-like game built with Vue.js, Express.js, and Socket.IO.
+
+It uses OpenAI's GPT-4 API to generate new creative prompts and validate user answers. 
+
+The game's AI functionality allows the game to be played by yourself, as opposed to the traditional game where other players must score each others answers... but in theory can support thousands of players!
+
+
 ### [🎶 ECHO — Your Spotify Visualized](https://github.com/zachbroad/echo/)
 A full-stack mobile & web app for users to **explore & share their Spotify listening history** & habits with friends. 
 Built with **Django + Django REST Framework** as backend & **React** as a web frontend.
@@ -48,11 +56,12 @@ Built with **Django + Django REST Framework** as backend & **Flutter** as a fron
   - Swift (familiar)
 
   ### Web Development
+  - React
+  - Vue
+  - Express
   - Bootstrap
-  - React (Redux, Native)
   - GatsbyJS
   - Hugo (familiar)
-  - Express (familiar)
   - ApostropheCMS (familiar)
 
   ### Mobile Development
@@ -63,6 +72,8 @@ Built with **Django + Django REST Framework** as backend & **Flutter** as a fron
   ### Back-end
   - Django
   - Django REST Framework
+  - Express.js
+  - Socket.IO
   - Node.js (familiar)
   - Flask (familiar)
 
