@@ -19,12 +19,15 @@ It uses OpenAI's GPT-4 API to generate new creative prompts and validate user an
 
 The game's AI functionality allows the game to be played by yourself, as opposed to the traditional game where other players must score each others answers... but in theory can support thousands of players!
 
+![image](https://github.com/zachbroad/zachbroad/assets/28503051/6ee2ea9d-441b-4267-93c3-16ef9bcb0169)
 
 ### [🎶 ECHO — Your Spotify Visualized](https://github.com/zachbroad/echo/)
 A full-stack mobile & web app for users to **explore & share their Spotify listening history** & habits with friends. 
 Built with **Django + Django REST Framework** as backend & **React** as a web frontend.
 
 It's currently pending approval from Spotify, but you can still [check it out]() and explore the app without logging in... If you want to try it out, let me know and I can add your email to the whitelist!
+
+![image](https://github.com/zachbroad/zachbroad/assets/28503051/66bd2f4f-7c11-45c6-8584-04b99a3e231f)
 
 ### [💬 JIRC — Java Internet Relay Chat](https://github.com/zachbroad/jirc/)
 A basic Internet Relay Chat written in Java that implements the IRC protocol specified in the [RFC 1459](https://datatracker.ietf.org/doc/html/rfc1459) & [RFC 2812](https://datatracker.ietf.org/doc/html/rfc2812).
