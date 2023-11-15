@@ -3,7 +3,7 @@
 - 🌴 **From**: Melbourne, FL, USA
 - 🛠️ **Expertise**: Full stack software development (desktop/web/mobile). SEO. Mediavine publisher.
 - 💼 **Skills**: Proficient in Python, Django + Django Rest Framework, JavaScript (React, Vue), RESTful API design.
-- 🚀 **I’m currently working on**: A Scattergories clone built w/ Django + Vue that uses Socket.IO for live multiplayer & GPT-4 to verify validity of answers.
+- 🚀 **I’m currently working on**: NAND2Tetris
 - 📚 **Education**: Currently self-taught, with plans to pursue a degree in Computer Engineering.
 - 🌱 **I’m currently learning**: Distributed systems.
 - ⚡ **Fun Facts**: 140 wpm typist. Vim enthusiast. Keyboard hoarder.
