@@ -1,6 +1,6 @@
 # Hey, I'm Zach
 
-Software engineer based in Florida. B.S. Computer Science. Currently building cloud-based healthcare software. CKAD and Terraform certified.
+Software engineer based in Florida. Currently building cloud-based healthcare software. 
 
 ## Projects
 
