@@ -4,6 +4,7 @@ Software engineer based in Florida. Currently building cloud-based healthcare so
 
 ## Projects
 
+- 🎛️ **[ZachsMacTweaks](https://github.com/zachbroad/zachs-macos-tweaks)** — Native macOS menu bar app for one-click, fully reversible system tweaks (Caps→Esc, mouse accel, anti-distraction profiles, and more). Swift 6 + SwiftUI `MenuBarExtra` over a UI-agnostic, unit-tested core engine that snapshots every original value before mutating it. Notarized `.app` via XcodeGen + a build/sign/notarize pipeline.
 - 🔎 **[pgsync-elasticsearch-bookstore](https://github.com/zachbroad/pgsync-elasticsearch-bookstore)** — FastAPI bookstore where CRUD goes to Postgres and search is served from Elasticsearch, kept in sync by [pgsync](https://pgsync.com) over logical replication. Includes a query-mode search playground and a SQLAdmin UI. ([Write-up](https://www.zachbroad.com/blog/pgsync/))
 - 🔄 **[debezium-elasticsearch-cdc](https://github.com/zachbroad/debezium-elasticsearch-cdc)** — Syncs a multi-table Postgres aggregate into a single Elasticsearch index via Kafka + Debezium + a search worker that treats CDC events as triggers and re-fetches the full aggregate from Postgres. ([Write-up](https://www.zachbroad.com/blog/postgres-elasticsearch-cdc/))
 - 🛰️ **[dns-monitor](https://github.com/zachbroad/dns-monitor)** — Lightweight DNS uptime/drift monitor in Go. Resolves configured records on an interval, flags drift against expected answers, persists history to SQLite, and serves an HTMX dashboard. Multi-arch image on GHCR. ([Docs](https://zachbroad.github.io/dns-monitor))
