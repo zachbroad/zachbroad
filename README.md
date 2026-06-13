@@ -4,6 +4,8 @@ Software engineer based in Florida. Currently building cloud-based healthcare so
 
 ## Projects
 
+- 🔎 **[pg-es-cdc-bookstore](https://github.com/zachbroad/pg-es-cdc-bookstore)** — FastAPI bookstore where CRUD goes to Postgres and search is served from Elasticsearch, kept in sync by [pgsync](https://pgsync.com) over logical replication. Includes a query-mode search playground and a SQLAdmin UI. ([Write-up](https://www.zachbroad.com/blog/pgsync/))
+- 🔄 **[postgres-elasticsearch-cdc](https://github.com/zachbroad/postgres-elasticsearch-cdc)** — Syncs a multi-table Postgres aggregate into a single Elasticsearch index via Kafka + Debezium + a search worker that treats CDC events as triggers and re-fetches the full aggregate from Postgres. ([Write-up](https://www.zachbroad.com/blog/postgres-elasticsearch-cdc/))
 - 🛰️ **[dns-monitor](https://github.com/zachbroad/dns-monitor)** — Lightweight DNS uptime/drift monitor in Go. Resolves configured records on an interval, flags drift against expected answers, persists history to SQLite, and serves an HTMX dashboard. Multi-arch image on GHCR. ([Docs](https://zachbroad.github.io/dns-monitor))
 - 🪝 **[NitroHook](https://nitrohook.com)** — Self-hosted webhook gateway in Go that receives, transforms (sandboxed JS), and fans out deliveries to HTTP, Slack, SMTP, Twilio, and more. ([GitHub](https://github.com/zachbroad/nitrohook))
 - 🎲 **[Categories.LIVE](https://categories.zachbroad.com)** — Real-time multiplayer Scattergories with LLM-graded answers. React Router v7 + Socket.IO, deployed on Fly.io. ([GitHub](https://github.com/zachbroad/categories-live))
