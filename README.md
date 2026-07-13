@@ -16,6 +16,6 @@ Software engineer based in Florida. Currently building [Nitrohook](https://githu
 ## Tutorials
 - 🔎 **[pgsync-elasticsearch-bookstore](https://github.com/zachbroad/pgsync-elasticsearch-bookstore)** — FastAPI bookstore where CRUD goes to Postgres and search is served from Elasticsearch, kept in sync by [pgsync](https://pgsync.com) over logical replication. Includes a query-mode search playground and a SQLAdmin UI. ([Write-up](https://www.zachbroad.com/blog/pgsync/))
 - 🔄 **[debezium-elasticsearch-cdc](https://github.com/zachbroad/debezium-elasticsearch-cdc)** — Syncs a multi-table Postgres aggregate into a single Elasticsearch index via Kafka + Debezium + a search worker that treats CDC events as triggers and re-fetches the full aggregate from Postgres. ([Write-up](https://www.zachbroad.com/blog/postgres-elasticsearch-cdc/))
-- 📈 **[keda-kafka-autoscaling](https://github.com/zachbroad/keda-kafka-autoscaling)** — A Kafka-driven notification pipeline that scales its consumer on Kafka consumer-group lag using KEDA. [Write-up](https://www.zachbroad.com/blog/keda-kafka-autoscaling/)
+- 📈 **[keda-kafka-autoscaling](https://github.com/zachbroad/keda-kafka-autoscaling)** — A Kafka-driven notification pipeline that scales its consumer on Kafka consumer-group lag using KEDA. ([Write-up](https://www.zachbroad.com/blog/keda-kafka-autoscaling/))
 
 
